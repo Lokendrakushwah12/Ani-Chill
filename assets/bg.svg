@@ -1,0 +1,69 @@
+<svg width="1440" height="950" viewBox="0 0 1440 950" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.4">
+<mask id="mask0_106_4003" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="950">
+<path d="M1439.54 0H0V949.719H1439.54V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_106_4003)">
+<g opacity="0.2">
+<mask id="mask1_106_4003" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-170" width="1419" height="1212">
+<path d="M6.8548 -169.503L6.85474 1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M56.7089 -169.503L56.7089 1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M106.563 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M156.417 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M206.271 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M256.125 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M305.979 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M355.834 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M405.688 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M455.542 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M505.396 -169.503L505.395 1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M555.25 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M605.103 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M654.959 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M704.81 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M754.667 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M804.517 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M854.374 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M904.225 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M954.082 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M1003.94 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M1053.79 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M1103.65 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M1153.5 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M1203.35 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M1253.2 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M1303.06 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M1352.91 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M1402.77 -169.503V1041.95" stroke="white" stroke-width="1.24635"/>
+<path d="M0 912.951H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 863.1H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 813.243H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 763.393H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 713.536H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 663.685H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 613.828L1418.35 613.829" stroke="white" stroke-width="1.24635"/>
+<path d="M0 563.974L1418.35 563.974" stroke="white" stroke-width="1.24635"/>
+<path d="M0 514.121H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 464.266H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 414.412H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 364.558H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 314.704H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 264.85H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 214.996H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 165.141H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 115.287H1418.35" stroke="white" stroke-width="1.24635"/>
+<path d="M0 65.433H1418.35" stroke="white" stroke-width="1.24635"/>
+</mask>
+<g mask="url(#mask1_106_4003)">
+<path d="M720 748C1117.65 748 1440 593.986 1440 404C1440 214.014 1117.65 60 720 60C322.355 60 0 214.014 0 404C0 593.986 322.355 748 720 748Z" fill="url(#paint0_radial_106_4003)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_106_4003" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 404) rotate(90) scale(344 720)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
