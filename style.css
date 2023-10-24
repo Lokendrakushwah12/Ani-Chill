@@ -115,10 +115,22 @@ body {
 /* background */
 
 /* hero */
-.hero {
+#hero {
     /* display: flex; */
     width: 100%;
     height: calc(100vh - 80px);
+    background: url("./assets/bg.svg");
+    background-position: center;
+    background-position-y: 10;
+    z-index: -2;
+}
+
+.Pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
     background: url("./assets/bg.svg");
     background-position: center;
     background-position-y: 10;
@@ -140,7 +152,7 @@ body {
     opacity: 0.8;
 }
 
-.hero .hero-center {
+#hero .hero-center {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -150,7 +162,7 @@ body {
     flex-shrink: 0;
 }
 
-.hero h1 {
+#hero h1 {
     font-size: 3rem;
     font-style: normal;
     font-weight: 700;
@@ -159,7 +171,7 @@ body {
     text-align: center;
 }
 
-.hero p {
+#hero p {
     color: #9990BF;
     text-align: center;
     font-size: 1.25rem;
@@ -198,7 +210,7 @@ body {
 }
 
 /* cover */
-.hero .cover-img {
+#hero .cover-img {
     width: 100%;
     height: 50px;
     background-color: var(--accent-color);
@@ -209,7 +221,7 @@ body {
     z-index: -5;
 }
 
-.hero .y {
+#hero .y {
     transform: translateY(270px);
 }
 
@@ -221,20 +233,20 @@ body {
     z-index: -10;
 }
 
-.hero .caro .carousel {
+#hero .caro .carousel {
     display: inline-block;
     align-items: flex-start;
     padding-top: 60px;
     animation: 20s slide infinite linear;
 }
 
-.hero .caro .carousel img {
+#hero .caro .carousel img {
     height: 235px;
     padding-right: 16px;
 }
 
 @keyframes slide {
-    
+
     from {
         transform: translateX(0)
     }
@@ -242,4 +254,39 @@ body {
     to {
         transform: translateX(-100%)
     }
+}
+
+/* Top Airing */
+
+.content {
+    display: flex;
+    width: 82rem;
+    padding: 0.25rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.content h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.09rem;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    padding: 1.5rem 3.75rem;
+    justify-content: space-between;
+    align-items: center;
 }

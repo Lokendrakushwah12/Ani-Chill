@@ -15,7 +15,7 @@ We welcome contributions from the community. If you'd like to contribute to the 
 
 2. Make your changes and commit them:
 ```bash
-git add ."
+git add .
 ```
 ```bash
 git commit -m "Add your feature or bug fix"
