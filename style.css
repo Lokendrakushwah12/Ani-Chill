@@ -199,6 +199,25 @@ body {
     line-height: 150%;
     letter-spacing: -0.02rem;
 }
+.search-btn input {
+    transition: .3s ease 0s;
+    color: white;
+    background-color: var(--primary-color);
+    appearance: none;
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 90%;
+    font-size: 1.2rem;
+    border-radius: 999px;
+}
+.search-btn:hover input {
+    background-color: hsl(252, 70%, 57%);
+}
+.search-btn input::placeholder {
+    color: #9990BF;
+    font-size: 1.2rem;
+}
 
 .search-btn svg {
     cursor: pointer;
