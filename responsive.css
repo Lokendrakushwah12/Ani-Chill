@@ -29,11 +29,20 @@
         fill: var(--primary-color);
         width: 32px;
     }
+    .menu:hover{
+        cursor:pointer;
+    }
 
 }
 
 /* md */
 @media (max-width: 640px) {
+    .cursor{
+        display: none;
+    }
+    body{
+        cursor:inherit;
+    }
     #hero h1 {
         font-size: 1.75rem;
         font-weight: 500;
