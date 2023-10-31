@@ -3,6 +3,10 @@ const cursor = document.querySelector(".cursor");
 const links = document.querySelectorAll("a");
 const body = document.querySelector("body");
 
+const menuLinks = document.querySelectorAll('.menu-links');
+const menu = document.querySelector('.menu');
+const menuOptions = document.querySelector('.menu-options');
+const menuClose = document.querySelector('.menu-close');
 body.addEventListener("mouseleave", function () {
     cursor.classList.add("mouse-hidden");
 })
@@ -37,3 +41,34 @@ window.addEventListener("mousemove", (e) => {
         })
     })
 })
+
+//Hamburger Menu
+menu.addEventListener('click', function() {
+    if (menuOptions.style.display === 'none' || menuOptions.style.display === '') {
+        menuOptions.style.display = 'flex'; 
+        menuClose.style.display = 'flex'; 
+        menu.style.display = "none"
+    } else {
+        menuOptions.style.display = 'none'; 
+        menuClose.style.display = 'none';
+        menu.style.display = "flex" 
+    }
+});
+menuClose.addEventListener('click', function() {
+    if (menuOptions.style.display === 'none' || menuOptions.style.display === '') {
+        menuOptions.style.display = 'flex'; 
+        menuClose.style.display = 'flex'; 
+        menu.style.display = "none"
+    } else {
+        menuOptions.style.display = 'none'; 
+        menuClose.style.display = 'none';
+        menu.style.display = "flex" 
+    }
+});
+menuLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+        menuOptions.style.display = 'none'; 
+        menuClose.style.display = 'none';
+        menu.style.display = "flex" 
+    });
+});
