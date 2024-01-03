@@ -1,7 +1,7 @@
 /*! locomotive-scroll v3.5.4 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
 html.has-scroll-smooth {
     overflow: hidden;
-    z-index: 2;     
+    z-index: 2;
 }
 
 html.has-scroll-dragging {
@@ -63,4 +63,15 @@ html.has-scroll-dragging {
 .has-scroll-dragging .c-scrollbar_thumb {
     cursor: -webkit-grabbing;
     cursor: grabbing;
+}
+
+.reveal {
+    position: relative;
+    transform: translate(0, 150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active {
+    transform: translate(0, 0px);
+    opacity: 1;
 }

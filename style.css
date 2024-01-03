@@ -43,6 +43,7 @@ body {
 /* cursor */
 .cursor {
     position: absolute;
+    left: 50%;
     z-index: 600;
     pointer-events: none;
     transition: all 300ms;
@@ -210,7 +211,7 @@ body {
     z-index: -2;
     justify-content: center;
     align-items: center;
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
 #hero .hero-center {
@@ -363,4 +364,66 @@ body {
     padding: 1.5rem 3.75rem;
     justify-content: space-between;
     align-items: center;
+}
+
+.card__ {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.anime__card {
+    width: 216px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: #212121;
+    border-radius: 16px;
+    padding: 8px;
+    border: 1px solid #313131;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in;
+}
+
+.anime__card h2 {
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.anime__card:hover {
+    border: 1px solid #414141;
+}
+
+.anime__card img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center
+}
+
+.status__ {
+    color: #ffffffaa;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.base__ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ffffffaa;
 }
