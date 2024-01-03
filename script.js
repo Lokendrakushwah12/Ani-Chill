@@ -37,3 +37,10 @@ window.addEventListener("mousemove", (e) => {
         })
     })
 })
+
+// Locomotive Scroll
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#full'),
+    smooth: true
+});
