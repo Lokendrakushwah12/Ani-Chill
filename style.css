@@ -374,7 +374,7 @@ body {
 
 .anime__card {
     width: 216px;
-    height: 250px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -397,11 +397,14 @@ body {
 
 .anime__card:hover {
     border: 1px solid #414141;
+    /* glow */
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2),
+        0 0 12px 0 rgba(255, 255, 255, 0.08);
 }
 
 .anime__card img {
     width: 200px;
-    height: 150px;
+    height: 180px;
     border-radius: 8px;
     object-fit: cover;
     object-position: center
@@ -426,4 +429,57 @@ body {
     justify-content: space-between;
     font-size: 14px;
     color: #ffffffaa;
+}
+
+/* FAQ */
+.FAQcontent {
+    display: flex;
+    width: 82rem;
+    padding: 0.25rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ques {
+    width: 60%;
+    height: 50px;
+    overflow: hidden;
+    background-color: #212121;
+    padding: 4px 12px;
+    border-radius: 8px;
+    transition: all 0.2s ease-in;
+}
+
+.ques__ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ques__ h2 {
+    font-size: 1.25rem;
+    color: #ffffffaa;
+    font-weight: 300;
+}
+
+.ques__ span {
+    font-size: 2rem;
+    color: #ffffffaa;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.ques p {
+    /* border-top: 1px solid #414141; */
+    color: #ffffffaa;
+    font: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 4px;
+    display: none;
+    transition: all 2s ease-in;
 }

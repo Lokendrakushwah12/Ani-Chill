@@ -46,24 +46,50 @@ const scroll = new LocomotiveScroll({
 });
 
 // Scroll Reveal
-const sr=document.querySelectorAll('.content');
+// const sr = document.querySelector('.content');
 
-sr.addEventListener('scroll', reveal);
+// sr.addEventListener('scroll', reveal);
 
-function reveal() {
-    var reveals = document.querySelectorAll('.reveal');
+// function reveal() {
+//     var reveals = document.querySelectorAll('.reveal');
 
-    for (var i = 0; i < reveals.length; i++) {
+//     for (var i = 0; i < reveals.length; i++) {
 
-        var windowheight = window.innerHeight;
-        var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = 150;
+//         var windowheight = window.innerHeight;
+//         var revealtop = reveals[i].getBoundingClientRect().top;
+//         var revealpoint = 150;
 
-        if (revealtop < windowheight - revealpoint) {
-            reveals[i].classList.add('active');
+//         if (revealtop < windowheight - revealpoint) {
+//             reveals[i].classList.add('active');
+//         }
+//         else {
+//             reveals[i].classList.remove('active');
+//         }
+//     }
+// }
+
+// faq
+const plus = document.querySelectorAll('.plus');
+const que = document.querySelectorAll('.ques');
+const ans = document.querySelectorAll('.answer');
+let flag = true;
+plus.forEach((item) => {
+    item.addEventListener('click', () => {
+        console.log(item.id);
+        if (flag) {
+            // open
+            item.style.transform = "rotate(45deg)";
+            que[item.id].style.height = "120px";
+            ans[item.id].style.borderTop = "1px solid #414141";
+            ans[item.id].style.display = "block";
+            flag = false;
         }
         else {
-            reveals[i].classList.remove('active');
+            item.style.transform = "rotate(0deg)";
+            que[item.id].style.height = "50px";
+            ans[item.id].style.borderTop = "1px solid #212121";
+            ans[item.id].style.display = "none";
+            flag = true;
         }
-    }
-}
+    });
+})
