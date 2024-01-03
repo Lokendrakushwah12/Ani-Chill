@@ -10,6 +10,7 @@
         gap: 1rem;
     }
 }
+
 @media (max-width: 920px) {
     .card__ {
         display: grid;
@@ -17,6 +18,7 @@
         gap: 1rem;
     }
 }
+
 @media (max-width: 680px) {
     .card__ {
         display: grid;
@@ -24,6 +26,7 @@
         gap: 1rem;
     }
 }
+
 /* lg */
 @media (max-width: 960px) {
     #hero h1 {
@@ -102,6 +105,18 @@
 
 /* xs */
 @media (max-width: 475px) {
+    .anime__card {
+        width: 168px;
+        height: 250px;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .anime__card img {
+        width: 160px;
+        height: 150px;
+    }
+
     #hero h1 {
         font-size: 1.5rem;
         font-weight: 500;
