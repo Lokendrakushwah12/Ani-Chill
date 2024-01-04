@@ -29,6 +29,10 @@
 
 /* lg */
 @media (max-width: 960px) {
+    .ques {
+        width: 75%;
+    }
+
     #hero h1 {
         font-size: 2rem;
         letter-spacing: 0rem;
@@ -60,10 +64,17 @@
         cursor: pointer;
     }
 
+    .content h1 {
+        font-size: 2.5rem;
+    }
 }
 
 /* md */
 @media (max-width: 640px) {
+    .ques {
+        width: 80%;
+    }
+
     .cursor {
         display: none;
     }
@@ -105,6 +116,14 @@
 
 /* xs */
 @media (max-width: 475px) {
+    .ques {
+        width: 90%;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
     .anime__card {
         width: 168px;
         height: 240px;

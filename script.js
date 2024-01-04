@@ -41,10 +41,26 @@ window.addEventListener("mousemove", (e) => {
 // Locomotive Scroll
 
 const scroll = new LocomotiveScroll({
-    el: document.querySelector('#full'),
+    el: document.querySelector('.fullScroll'),
     smooth: true
 });
 
+const page = document.querySelectorAll('.scrolly')
+
+page.forEach((item) => {
+    item.addEventListener('click', () => {
+        if (item.id == 0 || item.id == 1) {
+            console.log(item.id)
+            scroll.scrollTo('#main');
+        }
+        else if (item.id == 2) {
+            scroll.scrollTo('#trending');
+        }
+        else if (item.id == 3) {
+            scroll.scrollTo('#FAQ');
+        }
+    })
+})
 // Scroll Reveal
 // const sr = document.querySelector('.content');
 
