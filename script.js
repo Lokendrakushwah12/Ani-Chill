@@ -110,3 +110,20 @@ plus.forEach((item) => {
     });
 })
 
+
+const menu = document.querySelector('.menu');
+let fl= true;
+menu.addEventListener('click', () => {
+    const path1 = document.querySelector('.plus1');
+    const path2 = document.querySelector('.plus2');
+    if(fl){
+        path1.classList.add('active1');
+        path2.classList.add('active2');
+        fl=false;
+    }
+    else{
+        path1.classList.remove('active1');
+        path2.classList.remove('active2');
+        fl=true;
+    }
+})

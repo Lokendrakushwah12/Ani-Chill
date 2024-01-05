@@ -97,8 +97,24 @@ body {
     height: 80px;
     padding: 24px 60px;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     z-index: 10000;
+}
+
+.abs * {
+    transition: all 0.2s ease-in;
+}
+
+.active1 {
+    /* transform: rotateZ(45deg) scaleX(1.25) translate(0px, -10px); */
+    transform: rotateZ(45deg) translate(4px, -10px);
+    transition: all 0.2s ease-in;
+}
+
+.active2 {
+    /* transform: rotateZ(-45deg) scaleX(1.25) translate(-15px, 0px); */
+    transform: rotateZ(-45deg) translate(-15px, 0px);
+    transition: all 0.2s ease-in;
 }
 
 .nav-bar a {
